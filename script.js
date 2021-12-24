@@ -144,9 +144,9 @@ var example9 = "AA" < "AB";
 // var username = prompt ("What is tour name?", "stranger");
 // alert("Welcome " + username);
 
-// var a = prompt("What is the width of rectangle?");
-// var b = prompt("What is the height of rectangle?");
-// alert(a + b);
+var a = parseInt(prompt("What is the width of rectangle?"));
+var b = parseInt(prompt("What is the height of rectangle?"));
+alert(a + b);
 
 // if (confirm("Are you looking for a party?")) {
 //   alert("Come to hang out with us!");
@@ -155,26 +155,29 @@ var example9 = "AA" < "AB";
 //   alert("You are always welcome, if u have change of heart)")
 // }
 
-if (confirm("Are you army?")) {
-  if (confirm("Do you want to get a ticket to fanmeeting?")) {
-    if (confirm("Looking for a buddy to go with?")) {
-      alert("You are in right way!");
-    }
-    else {
-      if(confirm("Looking for a content with BTS?")) {
-        alert("Welcome to our purple island!");
-      }
-      else {
-        alert("What are you doing here?")
-      }
-    }
-  }
-}  
-else {
-  if (confirm("Then maybe stay?")) {
-    alert("Let's go to their concert!");
-  }
-  else {
-    alert("This site is not for you :(");
-  }
-}
+// if (confirm("Are you army?")) {
+//   if (confirm("Do you want to get a ticket to fanmeeting?")) {
+//     if (confirm("Looking for a buddy to go with?")) {
+//       alert("You are in right way!");
+//     }
+//     else {
+//       if(confirm("Looking for a content with BTS?")) {
+//         alert("Welcome to our purple island!");
+//       }
+//       else {
+//         alert("What are you doing here?")
+//       }
+//     }
+//   }
+// }  
+// else {
+//   if (confirm("Then maybe stay?")) {
+//     alert("Let's go to their concert!");
+//   }
+//   else {
+//     alert("This site is not for you :(");
+//   }
+// }
+
+// var userName = prompt("What's your name?", "");
+// alert(userName);
